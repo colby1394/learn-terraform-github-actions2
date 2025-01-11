@@ -21,7 +21,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "balericaclass6"
+    organization = "Starfleet_2025"
 
     workspaces {
       name = "learn-terraform-github-actions"
@@ -48,7 +48,7 @@ data "aws_ami" "ubuntu" {
 }
 
 resource "aws_instance" "web" {
-  ami                    = "ami-0a094c309b87cc107"
+  ami                    = "ami-05576a079321f21f8r"
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.web-sg.id]
 
