@@ -21,11 +21,11 @@ terraform {
   }
   required_version = ">= 1.1.0"
 
-cloud { 
-    organization = "Starfleet_2025" 
-    workspaces { 
-      name = "learn-terraform-github-actions" 
-    } 
+  cloud {
+    organization = "Starfleet_2025"
+    workspaces {
+      name = "learn-terraform-github-actions"
+    }
   }
 }
 
