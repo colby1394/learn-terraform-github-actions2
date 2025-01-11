@@ -3,7 +3,7 @@
 #Updated by: Starfleet_2025
 
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 #4
