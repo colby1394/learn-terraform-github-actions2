@@ -1,8 +1,9 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
+#Updated by: Starfleet_2025
 
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 #4
@@ -22,7 +23,6 @@ terraform {
 
   cloud {
     organization = "Starfleet_2025"
-
     workspaces {
       name = "learn-terraform-github-actions"
     }
