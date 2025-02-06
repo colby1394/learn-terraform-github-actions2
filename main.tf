@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 #Updated by: Starfleet_2025
-
+#hello
 provider "aws" {
   region = "us-east-1"
 
