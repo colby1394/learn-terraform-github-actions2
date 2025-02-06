@@ -4,27 +4,13 @@
 
 provider "aws" {
   region = "us-east-1"
+
 }
-
-#4
-
 terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 5.0"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "3.4.3"
-    }
-  }
-  required_version = ">= 1.1.0"
-
-  cloud {
-    organization = "Starfleet_2025"
-    workspaces {
-      name = "learn-terraform-github-actions"
     }
   }
 }
