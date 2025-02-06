@@ -25,7 +25,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/colby1394/learn-terraform-github-actions2/tree/main'
+                git branch: 'main', url: 'https://github.com/colby1394/learn-terraform-github-actions2/'
             }
         }
 
